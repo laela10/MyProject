@@ -18,8 +18,8 @@ public class ObjectFB {
         user1.setUserName("280203");
         user1.setFullName("Laela Diyah Puspita");
         ArrayList<String> myPost = new ArrayList<>();
-        for (int index = 0; index < jumPost; index++) {
-            myPost.add(sc.nextLine());
+        for (int index = 0; index < jumPost; index++){
+        myPost.add(sc.nextLine());
         }
         user1.setPosted(myPost);
         System.out.println("Total Posted : " + user1.ShowNumberOfPost());
